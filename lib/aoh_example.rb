@@ -16,6 +16,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  # ----
   # output = []
   # assembled_ary = assembled_aoh()
   # index = 0
@@ -24,6 +25,7 @@ def literal_aoh
   #   index += 1
   # end
   # return output
+  # ---- 
   return assembled_aoh()
 end
 
